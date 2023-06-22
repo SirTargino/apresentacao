@@ -34,7 +34,8 @@ ion-icon{
 }
 
 #contato{
-    padding: 0;
+    align-items: center;
+    text-align: center;
 }
 
 #contato h3{
@@ -42,6 +43,8 @@ ion-icon{
 }
 
 #contato a{
+    height: 25px;
+    width: 85px;
     padding: 10px;
     text-decoration: none;
     border: 1px solid white;
@@ -52,7 +55,10 @@ ion-icon{
 }
 
 #contato ul{
+    margin: 0px;
+    padding: 0;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
